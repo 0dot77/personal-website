@@ -1,9 +1,8 @@
-import { Canvas, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import Image2D from "./Image2D";
 import { animated, useSpring } from "@react-spring/three";
 import { useRef, useState } from "react";
-import { wobbleConfig } from "@/lib/utils";
-import { CameraControls, Html, Text } from "@react-three/drei";
+import { CameraControls, Text } from "@react-three/drei";
 
 export default function Scene() {
   const controlsRef = useRef<CameraControls | null>(null);
