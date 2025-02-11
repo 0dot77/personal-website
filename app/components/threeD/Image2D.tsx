@@ -19,7 +19,7 @@ const scale = useMemo(() => {
     <mesh scale={scale}>
       <planeGeometry args={[width, height]} />
       {/* alphaTest : 투명도 임계값 설정 */}
-      <meshBasicMaterial map={texture} transparent alphaTest={0.5} />
+      <meshBasicMaterial map={texture} transparent alphaTest={1} shadowSide={2} />
     </mesh>
   )
 }
