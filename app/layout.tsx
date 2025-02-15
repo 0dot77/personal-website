@@ -12,6 +12,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const minecraft = localFont({
+  src: "./fonts/Minecraft.ttf",
+  variable: "--font-minecraft",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: "0dot77",
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="kr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${minecraft.variable} font-minecraft antialiased`}
       >
         {children}
       </body>

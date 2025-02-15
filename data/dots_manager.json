@@ -1,0 +1,15 @@
+[
+    {
+        "text": "0.77",
+        "hoverText": "About Me",
+        "href": "/about",
+        "bgColor": "#1F1F1F",
+        "accentColor": "#FFFF99"
+    },
+    {
+        "text": "0706",
+        "hoverText": "Portfolio",
+        "href": "/portfolio",
+        "bgColor": "white"
+    }
+]

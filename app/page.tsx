@@ -1,14 +1,10 @@
-'use client'
-import Loader from './components/threeD/Loader';
-import Scene from "./components/threeD/Scene";
-import { Suspense } from 'react';
+import DotRing from "./components/DotRing";
+import data from "@/data/dots_manager.json";
 
 export default function Home() {
   return (
-      <main className="w-full h-screen">
-        <Suspense fallback={<Loader />}>
-          <Scene />
-        </Suspense>
+      <main className="w-full h-screen flex flex-col items-center justify-center overflow-hidden">
+        <DotRing dots={data} />
       </main>
   );
 }
