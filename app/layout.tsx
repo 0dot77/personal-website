@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="kr">
       <body
-        className={`${minecraft.variable} font-minecraft antialiased`}
+        className={`${minecraft.variable} font-minecraft bg-black antialiased`}
       >
         {children}
       </body>
